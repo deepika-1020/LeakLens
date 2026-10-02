@@ -1,0 +1,25 @@
+question_id,question,expected_intent,expected_support,is_partially_supported,description
+Q01,Why did revenue decline last month?,revenue_trend,True,False,Standard MoM revenue decline query
+Q02,Why did sales drop in September?,revenue_trend,True,False,Revenue decline with explicit month
+Q03,Why did Electronics revenue fall?,revenue_trend,True,False,Category specific revenue drop
+Q04,Why did revenue fall?,revenue_trend,True,False,Natural phrasing variation for revenue decline
+Q05,Why did sales fall?,revenue_trend,True,False,Natural phrasing variation for sales drop
+Q06,What caused the drop in revenue?,revenue_trend,True,False,Natural phrasing variation for revenue drop
+Q07,Why are we making less money this month?,revenue_trend,True,False,Colloquial phrasing for monthly contraction
+Q08,Which category has the highest refunds?,refund_leakage,True,False,Category refund ranking
+Q09,Why are refunds increasing?,refund_leakage,True,False,Refund trend analysis
+Q10,Show me customer returns in Beauty,refund_leakage,True,False,Filtered category refund query
+Q11,Which city has the biggest delivery problem?,delivery_risk,True,False,City-level delivery failure analysis
+Q12,What is causing shipping losses in Mumbai?,delivery_risk,True,False,Location specific delivery risk
+Q13,Show me delivery failures for Electronics,delivery_risk,True,False,Category delivery risk
+Q14,Show me discount leakage,discount_leakage,True,False,Promotional discount audit
+Q15,Which products are hurting our business?,product_leakage,True,False,Product-level leakage detection
+Q16,Which products have high refunds?,product_leakage,True,False,Product return rate analysis
+Q17,Which customers generate the most refunds?,customer_leakage,True,False,Customer account refund analysis
+Q18,Where are we losing money across operations?,full_investigation,True,False,Comprehensive operational audit
+Q19,How can we reduce revenue leakage?,full_investigation,True,False,Strategic leakage reduction advisory
+Q20,How to improve profit by adding what product and by removing what product?,product_leakage,True,True,Partially supported profit question with honest scoping
+Q21,Which product should we remove to improve profit?,product_leakage,True,True,Partially supported SKU rationalization
+Q22,Predict tomorrow's stock price for our company,unsupported,False,False,Completely unsupported external market query
+Q23,What is the employee salary distribution in Chennai?,unsupported,False,False,Completely unsupported internal HR query
+Q24,Forecast crypto and bitcoin revenue for 2027,unsupported,False,False,Completely unsupported cryptocurrency query

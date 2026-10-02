@@ -1,0 +1,79 @@
+[
+  {
+    "audit_id": "AUD-20260929160805-0005",
+    "timestamp_utc": "2026-09-29 16:08:05 UTC",
+    "query_id": "QRY-20260929160804",
+    "question": "How to improve profit by adding what product and by removing what product?",
+    "investigation_type": "product_leakage",
+    "finding": "Product P071 has highest leakage of Rs 593302.98",
+    "calculated_metrics": {
+      "leakage": 593302.98
+    },
+    "recommendation": "1. Flag product P071 for priority packaging inspection and carrier handling verification.\n2. Re-evaluate customer return authorizations on SKUs with return ratios exceeding 20%.\n3. Consider temporarily restricting cash-on-delivery (COD) or standard transit for high-loss items.",
+    "decision": "APPROVED",
+    "reviewer": "Data Analytics Lead",
+    "reviewer_notes": "Approved catalog review for high-loss SKUs",
+    "evidence_summary": {},
+    "execution_status": "MANUAL_ACTION_REQUIRED"
+  },
+  {
+    "audit_id": "AUD-20260929155016-0004",
+    "timestamp_utc": "2026-09-29T15:50:16.607175Z",
+    "query_id": "QRY-20260929154955",
+    "question": "Where are we losing money?",
+    "investigation_type": "full_investigation",
+    "calculated_metrics": {
+      "financial_impact": 0.0
+    },
+    "recommendation": "1. Enforce hard discount caps in the merchant checkout system.\n2. Establish automated courier re-dispatch rules for late shipments.\n3. Require supervisor signoff for all manual refund authorizations above \u20b95,000.",
+    "decision": "APPROVED",
+    "reviewer": "Revenue Operations Analyst",
+    "reviewer_notes": "No notes provided.",
+    "execution_status": "MANUAL_ACTION_REQUIRED"
+  },
+  {
+    "audit_id": "AUD-20260929154929-0003",
+    "timestamp_utc": "2026-09-29T15:49:29.094528Z",
+    "query_id": "QRY-20260929154914",
+    "question": "Show me discount leakage.",
+    "investigation_type": "discount_leakage",
+    "calculated_metrics": {
+      "financial_impact": 97785.65
+    },
+    "recommendation": "1. Enforce hard discount caps in the merchant checkout system.\n2. Establish automated courier re-dispatch rules for late shipments.\n3. Require supervisor signoff for all manual refund authorizations above \u20b95,000.",
+    "decision": "REJECTED",
+    "reviewer": "Revenue Operations Analyst",
+    "reviewer_notes": "No notes provided.",
+    "execution_status": "ACTION_ABORTED"
+  },
+  {
+    "audit_id": "AUD-20260929154925-0002",
+    "timestamp_utc": "2026-09-29T15:49:25.903535Z",
+    "query_id": "QRY-20260929154914",
+    "question": "Show me discount leakage.",
+    "investigation_type": "discount_leakage",
+    "calculated_metrics": {
+      "financial_impact": 97785.65
+    },
+    "recommendation": "1. Enforce hard discount caps in the merchant checkout system.\n2. Establish automated courier re-dispatch rules for late shipments.\n3. Require supervisor signoff for all manual refund authorizations above \u20b95,000.",
+    "decision": "APPROVED",
+    "reviewer": "Revenue Operations Analyst",
+    "reviewer_notes": "No notes provided.",
+    "execution_status": "MANUAL_ACTION_REQUIRED"
+  },
+  {
+    "audit_id": "AUD-20260929153959-0001",
+    "timestamp_utc": "2026-09-29T15:39:59.523876Z",
+    "query_id": "QRY-20260929153959",
+    "question": "Why did revenue decline last month?",
+    "investigation_type": "revenue_trend",
+    "calculated_metrics": {
+      "change": -1421287.35
+    },
+    "recommendation": "1. Maintain baseline monitoring.\n2. Ensure fulfillment capacity scales with order growth.",
+    "decision": "APPROVED",
+    "reviewer": "Data Analytics Lead",
+    "reviewer_notes": "Audit test",
+    "execution_status": "MANUAL_ACTION_REQUIRED"
+  }
+]
