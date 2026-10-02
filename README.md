@@ -3,6 +3,9 @@
 **Build Fast with AI — AI Build Challenge 2026**  
 **Problem Statement:** PS-04 — AI Decision Engine for Business Data  
 **Project Track:** AI & Data Analytics  
+## 🚀 Live Demo
+
+**Deployed App:** https://deepika-1020-leaklens-app-gaydrs.streamlit.app/
 
 ---
 
