@@ -131,7 +131,7 @@ LeakLens includes an automated evaluation framework (`evaluation/evaluate.py`) r
 ### 1. Installation
 ```bash
 # Clone the repository
-git clone https://github.com/<your-username>/LeakLens.git
+git clone https://github.com/deepika-1020/LeakLens.git
 cd LeakLens
 
 # Activate virtual environment
